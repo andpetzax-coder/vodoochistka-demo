@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Купавнафильтр · фильтры для воды и водоочистка</title>
+<meta name="description" content="Фильтры для воды в Купавне: анализ воды, подбор системы под его результат, монтаж за один день. Цена фиксируется после диагностики и не меняется, гарантия письменно.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Купавнафильтр">
+<meta property="og:title" content="Купавнафильтр · фильтры для воды и водоочистка">
+<meta property="og:description" content="Анализ воды, подбор системы под его результат, монтаж за один день. Цена фиксируется после диагностики и не меняется, гарантия письменно.">
+<meta property="og:url" content="{{адрес сайта}}">
+<meta property="og:image" content="{{адрес сайта}}/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="assets/hero-m.webp" media="(max-width: 860px)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/hero.webp" media="(min-width: 861px)" fetchpriority="high">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect x=%272%27 y=%272%27 width=%2728%27 height=%2728%27 rx=%276%27 fill=%27%23d9cfc1%27/%3E%3Cpath d=%27M16 7.5c3.1 3.9 5.6 6.8 5.6 9.6a5.6 5.6 0 1 1-11.2 0c0-2.8 2.5-5.7 5.6-9.6z%27 fill=%27%231e1a16%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@500;600;700&family=Golos+Text:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="vibe.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Купавнафильтр","description":"Фильтры для воды: анализ воды, подбор системы под его результат, монтаж за один день, обслуживание. Цена фиксируется после диагностики и не меняется, гарантия письменно.","url":"{{адрес сайта}}","image":"{{адрес сайта}}/assets/og.jpg","telephone":"+79021234545","address":{"@type":"PostalAddress","streetAddress":"ул. Центральная, 8","addressLocality":"Купавна","addressCountry":"RU"},"areaServed":"Купавна","openingHours":"Mo-Su 09:00-19:00","priceRange":"3 000 – 150 000 ₽"}
+</script>
+<style>
+  html, body { margin: 0; background: #22252a; }
+
+  /* ---- тема: графит и снег, стакан чистой воды как источник света --------- */
+  .v-page {
+    --v-canvas: #22252a; --v-surface: #2b2f35;
+    --v-ink: #f2f0ec; --v-ink-soft: #b3aea6;           /* 7,0:1 на холсте */
+    --v-accent: #d9cfc1; --v-accent-ink: #1e1a16;      /* кнопка 11,2:1 */
+    --v-font-display: "Onest", "Segoe UI", system-ui, sans-serif;
+    --v-font-text: "Golos Text", "Segoe UI", system-ui, sans-serif;
+    --v-shadow-color: 0 0 0;
+    --v-e1: 0 1px 2px rgb(var(--v-shadow-color) / .07), 0 8px 22px rgb(var(--v-shadow-color) / .09);
+    --v-e2: 0 2px 6px rgb(var(--v-shadow-color) / .09), 0 24px 56px rgb(var(--v-shadow-color) / .16);
+    --v-radius: 4px;
+    --v-section: clamp(3.5rem, 8vw, 7rem);
+    --v-track-tight: -0.022em;
+    /* вода: мутная со sedimentом и чистая */
+    --water-old: #8f7a52; --water-new: #cfe4ec;
+    /* мелкие кегли не ниже 13 и 15 px */
+    --v-t-xs: clamp(0.8125rem, 0.79rem + 0.15vw, 0.85rem);
+    --v-t-sm: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+  }
+  @media (max-width: 860px) { .v-page { --v-t-xs: 0.9375rem; } }
+  .v-page .v-display { font-weight: 600; }
+  .v-page h1.v-display { font-weight: 700; }
+  .v-page .v-btn { font-size: var(--v-t-base); border-radius: 6px; }
+  .v-page .v-lede { color: var(--v-ink); }
+  .v-page img { content-visibility: auto; }
+
+  /* ---- марка: капля в один штрих ------------------------------------------- */
+  .glyph { position: relative; display: inline-block; width: 1.02em; height: 1.02em; border: 2px solid currentColor; border-radius: 52% 52% 52% 4%; transform: rotate(45deg); flex: none; }
+
+  /* ---- шапка: марка, услуги, одна кнопка ------------------------------------- */
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: var(--v-6);
+    padding: var(--v-3) var(--v-gutter); background: rgb(34 37 42 / .84); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 1px solid var(--v-hair); }
+  .bar__mark { font-family: var(--v-font-display); font-weight: 700; font-size: var(--v-t-base); text-decoration: none; display: inline-flex; align-items: center; gap: .55em; white-space: nowrap; letter-spacing: -.01em; }
+  .bar__tag { justify-self: center; font-size: var(--v-t-sm); color: var(--v-ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar .v-btn { padding: .72em 1.25em; }
+  @media (max-width: 860px) {
+    .bar { grid-template-columns: auto auto; justify-content: space-between; gap: var(--v-3); }
+    .bar__tag { display: none; }
+    .bar .v-btn { padding: .65em 1em; font-size: var(--v-t-sm); }
+  }
+
+  /* ---- 1 · hero: кухня со стаканом воды, фото на весь экран ----------------- */
+  .hero { position: relative; height: 100svh; min-height: 560px; overflow: hidden; background: var(--v-canvas); }
+  .hero__back img { width: 116%; height: 116%; left: -8%; top: -8%; object-fit: cover; object-position: 50% 50%; transform-origin: 62% 58%;
+    transform: translate3d(0, calc((var(--v-p, .5) - .5) * 10vh), 0) scale(calc(1 + (var(--v-p, .5) - .5) * .14)); }
+  .hero__scrim { position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background: linear-gradient(to right, rgb(34 37 42 / .8) 0%, rgb(34 37 42 / .52) 28%, rgb(34 37 42 / .16) 46%, transparent 56%); }
+  .hero__col { position: absolute; z-index: 3; left: var(--v-gutter); top: 0; bottom: 0; width: min(40rem, 46vw); display: flex; align-items: center; padding-top: 3.5rem; }
+  .hero__label { font-size: var(--v-t-sm); font-weight: 500; color: var(--v-ink-soft); margin-bottom: var(--v-4); }
+  .hero__copy h1 { font-size: clamp(2.4rem, 1.1rem + 3.2vw, 4.4rem); line-height: .98; }
+  .hero__copy .v-lede { margin-top: var(--v-5); max-width: 42ch; }
+  .hero__cta { margin-top: var(--v-6); display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); }
+  .hero__hint { font-size: var(--v-t-sm); color: var(--v-ink-soft); max-width: 30ch; }
+  @media (max-width: 860px) {
+    .hero__back img { object-position: 50% 38%; transform-origin: 50% 34%; }
+    .hero__scrim { background: linear-gradient(to top, rgb(34 37 42 / .97) 0%, rgb(34 37 42 / .92) 36%, rgb(34 37 42 / .6) 56%, transparent 72%); }
+    .hero__col { left: var(--v-gutter); right: var(--v-gutter); top: auto; bottom: clamp(1.6rem, 4vh, 2.6rem); width: auto; display: block; padding-top: 0; }
+    .hero__label { margin-bottom: var(--v-3); }
+    .hero__copy h1 { font-size: clamp(1.9rem, 1.2rem + 3vw, 2.5rem); line-height: 1.02; }
+    .hero__copy .v-lede { font-size: var(--v-t-base); margin-top: var(--v-3); }
+    .hero__cta { margin-top: var(--v-4); flex-direction: column; align-items: flex-start; gap: var(--v-3); }
+  }
+  @media (max-width: 600px) { .hero__hint { display: none; } }
+  @media (min-width: 861px) and (max-height: 760px) {
+    .hero__copy h1 { font-size: clamp(2.2rem, 1rem + 2.9vw, 3.8rem); }
+    .hero__copy .v-lede { margin-top: var(--v-4); font-size: var(--v-t-base); }
+  }
+  @media (prefers-reduced-motion: reduce) { .hero__back img { transform: none; } }
+
+  /* ---- 2 · ступень за ступенью: стена с тремя стаканами, что меняется ------- */
+  .wa [data-v-stage] { background: var(--v-canvas); }
+  .wa__wall img { object-position: 50% 50%; }
+  /* свет на стене: холодный при мутной воде, тёплый при чистой; --q ставит скрипт */
+  .wa__light { position: absolute; inset: 0; z-index: 1; pointer-events: none; }
+  .wa__light--cool { background: radial-gradient(48% 54% at 74% 38%, rgb(148 170 182 / .34) 0%, rgb(148 170 182 / .14) 40%, transparent 72%); opacity: calc(1 - var(--q, 0)); }
+  .wa__light--warm { background: radial-gradient(48% 54% at 74% 38%, rgb(255 226 178 / .4) 0%, rgb(255 226 178 / .16) 40%, transparent 72%); opacity: var(--q, 0); }
+  .wa__scrim { position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background: linear-gradient(to right, rgb(34 37 42 / .82) 0%, rgb(34 37 42 / .54) 30%, transparent 52%); }
+  .wa__col { position: absolute; z-index: 3; left: var(--v-gutter); top: 0; bottom: 0; width: min(38rem, 44vw); display: flex; align-items: center; padding-top: 3.5rem; }
+  .wa__label { font-size: var(--v-t-sm); font-weight: 500; color: var(--v-ink-soft); margin-bottom: var(--v-4); }
+  .wa__copy h2 { font-size: clamp(1.9rem, .9rem + 2.5vw, 3.4rem); line-height: 1; }
+  /* три строки, которые переключаются вместе со стаканами: старое гаснет, новое встаёт рядом (класс is-done ставит скрипт) */
+  .swap { margin-top: var(--v-6); display: grid; }
+  .swap li { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--v-2) var(--v-4); padding: var(--v-3) 0; border-top: 1px solid var(--v-hair); font-size: var(--v-t-lg); line-height: 1.3; }
+  .swap li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .swap li::before { content: ""; width: .55rem; height: .55rem; border-radius: 50%; align-self: center; flex: none; background: var(--v-hair-strong); transition: background-color .3s var(--v-ease-out); }
+  .swap li.is-done::before { background: var(--v-accent); }
+  .swap__old { color: var(--v-ink-soft); text-decoration: line-through; text-decoration-color: transparent; text-decoration-thickness: 1px; transition: text-decoration-color .3s var(--v-ease-out), opacity .3s var(--v-ease-out); }
+  .swap li.is-done .swap__old { text-decoration-color: currentColor; opacity: .62; }
+  .swap__new { font-family: var(--v-font-display); font-weight: 600; color: var(--v-ink); opacity: 0; transform: translateY(6px); transition: opacity .35s var(--v-ease-out), transform .35s var(--v-ease-out); }
+  .swap li.is-done .swap__new { opacity: 1; transform: none; }
+  .wa__note { margin-top: var(--v-5); color: var(--v-ink-soft); max-width: 40ch; text-wrap: pretty; }
+  .wa__note b { color: var(--v-ink); font-weight: 600; }
+
+  /* три стакана на столешнице: мутная вода снизу слоями, чистая открывается снизу вверх */
+  .cups { position: absolute; z-index: 3; right: clamp(4.5rem, 8vw, 9rem); top: 50%; transform: translateY(-56%); width: min(36vw, 60svh); margin: 0; }
+  .cups__row { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1.4rem, 2.6vw, 2.6rem); align-items: end; }
+  .cup { position: relative; aspect-ratio: 5 / 7; border: 2px solid rgb(242 240 236 / .42); border-bottom-width: 3px; border-radius: 12px 12px 18px 18px; overflow: hidden;
+    background: linear-gradient(to bottom, rgb(242 240 236 / .12), rgb(242 240 236 / .03));
+    box-shadow: 0 26px 54px -22px rgb(0 0 0 / .6), inset 0 0 0 1px rgb(0 0 0 / .2);
+    transition: border-color .4s var(--v-ease-out); }
+  .cup.is-new { border-color: rgb(242 240 236 / .72); }
+  .cup .glass { position: absolute; left: 5px; right: 5px; top: 12%; bottom: 6%; border-radius: 3px 3px 12px 12px; overflow: hidden; }
+  .cup .glass--old { background: linear-gradient(to bottom, #a58f66 0%, #8f7a52 52%, #7b6643 100%); }
+  .cup .glass--old::before { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 34%; background: linear-gradient(to bottom, transparent, rgb(84 68 44 / .55)); }
+  .cup .glass--new { z-index: 2; clip-path: inset(100% 0 0 0); will-change: clip-path;
+    background: linear-gradient(to bottom, #edf6f9 0%, #cfe4ec 58%, #bad6e3 100%); }
+  .cup .glass--new::before { content: ""; position: absolute; left: 8%; right: 8%; top: 4%; height: 3px; border-radius: 999px; background: rgb(255 255 255 / .85); }
+  .cup::after { content: ""; position: absolute; inset: 0; z-index: 3; pointer-events: none;
+    background: linear-gradient(112deg, rgb(255 255 255 / .2) 0%, rgb(255 255 255 / 0) 32%), linear-gradient(to bottom, rgb(0 0 0 / .16), transparent 16%); }
+  .cups__counter { height: clamp(9px, 1.1vw, 15px); margin-top: -1px; background: #d9cfc1; border-radius: 0 0 4px 4px;
+    box-shadow: 0 14px 28px -10px rgb(0 0 0 / .55), inset 0 0 0 1px rgb(0 0 0 / .18), inset 0 2px 0 rgb(0 0 0 / .08); }
+  .cups__foot { margin-top: var(--v-5); display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--v-3); font-size: var(--v-t-sm); color: var(--v-ink-soft); position: relative; }
+  .cups__state { display: grid; gap: .15em; text-shadow: 0 1px 10px rgb(34 37 42 / .55), 0 0 2px rgb(34 37 42 / .4); }
+  .cups__state b { color: var(--v-ink); font-weight: 600; font-family: var(--v-font-display); transition: opacity .16s var(--v-ease-out); }
+  .cups__state span { transition: opacity .16s var(--v-ease-out); }
+  .cups__foot.is-swap .cups__state b, .cups__foot.is-swap .cups__state span { opacity: 0; }
+  /* шкала жёсткости: заливка от --q, справа от стаканов (на телефоне – горизонтально под ними) */
+  .meter { position: absolute; left: calc(100% + clamp(1.4rem, 2.2vw, 2.4rem)); top: 1.2rem; bottom: 4.6rem; width: 1.2rem; display: flex; flex-direction: column; align-items: center; gap: var(--v-2);
+    font-size: var(--v-t-xs); color: var(--v-ink-soft); white-space: nowrap; }
+  .meter__track { position: relative; flex: 1; width: 2px; border-radius: 1px; background: var(--v-hair-strong); overflow: hidden; }
+  .meter__track b { position: absolute; inset: 0; background: var(--v-accent); transform-origin: bottom; transform: scaleY(var(--q, 0)); }
+  .meter__top, .meter__bottom { font-weight: 500; }
+  .meter__top { color: var(--v-ink); }
+  @media (max-width: 860px) {
+    .wa__wall img { object-position: 62% 50%; }
+    .wa__scrim { background: linear-gradient(to top, rgb(34 37 42 / .98) 0%, rgb(34 37 42 / .94) 46%, rgb(34 37 42 / .62) 60%, transparent 74%); }
+    .wa__col { left: var(--v-gutter); right: var(--v-gutter); top: auto; bottom: clamp(1.2rem, 3.5vh, 2.4rem); width: auto; display: block; padding-top: 0; }
+    .wa__label { margin-bottom: var(--v-3); }
+    .wa__copy h2 { font-size: clamp(1.6rem, 1.1rem + 2.4vw, 2.1rem); line-height: 1.04; }
+    .swap { margin-top: var(--v-4); }
+    .swap li { font-size: var(--v-t-base); padding: var(--v-2) 0; gap: var(--v-1) var(--v-3); }
+    .wa__note { display: none; }
+    .cups { left: var(--v-gutter); right: var(--v-gutter); top: 4.2rem; width: auto; max-width: 25rem; margin-inline: auto; transform: none; }
+    .cups__foot { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: end; margin-top: var(--v-4); }
+    .meter { position: static; width: auto; flex-direction: row; align-items: center; gap: var(--v-2); padding-bottom: .2em; }
+    .meter__track { width: auto; height: 2px; }
+    .meter__track b { transform-origin: left; transform: scaleX(var(--q, 0)); }
+    .meter__top { order: 3; }
+    .meter__bottom { order: 1; }
+    .meter__track { order: 2; }
+  }
+  @media (min-width: 861px) and (max-height: 760px) {
+    .cups { width: min(33vw, 54svh); }
+    .wa__copy h2 { font-size: clamp(1.8rem, .9rem + 2.2vw, 3rem); }
+    .swap li { font-size: var(--v-t-base); }
+  }
+
+  /* ---- 3 · «подбор по телефону», а потом – не та система --------------------- */
+  .vdvoe__grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: var(--v-7) var(--v-9); align-items: start; }
+  .vdvoe__head { display: flex; flex-direction: column; gap: var(--v-5); align-items: flex-start; }
+  .vdvoe__head .v-body { color: var(--v-ink-soft); }
+  .phrases li { display: grid; gap: var(--v-2); padding: var(--v-5) 0; border-top: 1px solid var(--v-hair); }
+  .phrases li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .phrases b { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xl); line-height: 1.1; letter-spacing: var(--v-track-tight); }
+  .phrases span { color: var(--v-ink-soft); max-width: 48ch; text-wrap: pretty; }
+  .vdvoe__turn { margin-top: var(--v-3); padding: var(--v-5) var(--v-6); background: var(--v-surface); border-radius: var(--v-radius); box-shadow: var(--v-e1), var(--v-edge);
+    font-size: var(--v-t-base); line-height: 1.5; max-width: 44ch; text-wrap: pretty; }
+  .vdvoe__turn b { font-family: var(--v-font-display); font-weight: 600; }
+  @media (max-width: 860px) {
+    .vdvoe__grid { grid-template-columns: 1fr; gap: var(--v-5); }
+    .vdvoe__head { position: static; }
+    .phrases b { font-size: var(--v-t-lg); }
+    .vdvoe__turn { font-size: var(--v-t-base); padding: var(--v-4) var(--v-5); }
+  }
+
+  /* ---- 4 · как проходит: лента от анализа до приёмки -------------------------- */
+  .kak [data-v-stage] { display: flex; flex-direction: column; justify-content: center; padding-top: 3.5rem; }
+  .rail { padding-inline: var(--v-gutter) calc(var(--v-gutter) + 8vw); align-items: flex-start; }
+  .card { position: relative; flex: none; width: 24rem; padding-top: var(--v-5); border-top: 1px solid var(--v-hair-strong); }
+  .card--title { width: 26rem; }
+  .card--photo { width: 32rem; }
+  .card--wide { width: 38rem; }
+  .card--narrow { width: 21rem; }
+  .card__n { display: inline-grid; place-items: center; min-width: 2rem; height: 2rem; padding: 0 .55em; border-radius: 999px; background: var(--v-ink); color: var(--v-canvas);
+    font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xs); letter-spacing: .02em; margin-bottom: var(--v-4); }
+  .card--title .v-label { display: block; margin-bottom: var(--v-4); height: 2rem; line-height: 2rem; }
+  .card h2 { font-size: var(--v-t-2xl); }
+  .card h3 { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xl); line-height: 1.1; letter-spacing: var(--v-track-tight); text-wrap: balance; }
+  .card p { margin-top: var(--v-3); color: var(--v-ink-soft); max-width: 46ch; text-wrap: pretty; }
+  .card p b { color: var(--v-ink); font-weight: 600; }
+  .card figure { margin: var(--v-5) 0 0; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e1); background: var(--v-surface); }
+  .card figure img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+  .card--wide figure img { aspect-ratio: 16 / 9; }
+  .card--last { padding-right: var(--v-6); }
+  @media (pointer: coarse), (max-width: 860px) {
+    .kak { padding-block: var(--v-8) var(--v-7); }
+    .kak [data-v-stage] { display: block; padding-top: 0; scroll-padding-inline: var(--v-gutter); }
+    .rail { padding-inline: var(--v-gutter); gap: var(--v-5); }
+    .card, .card--title, .card--photo, .card--wide, .card--narrow { width: min(30rem, 78vw); }
+    .card h2 { font-size: var(--v-t-xl); }
+    .card h3 { font-size: var(--v-t-lg); }
+  }
+
+  /* ---- 5 · из чего собираем: сцена держится, пять образцов -------------------- */
+  .mat__scrim { background: linear-gradient(to right, rgb(34 37 42 / .92) 0%, rgb(34 37 42 / .72) 34%, rgb(34 37 42 / .28) 52%, transparent 66%); }
+  .mat__title { position: absolute; z-index: 3; top: calc(4.6rem + var(--v-4)); left: var(--v-gutter); font-size: var(--v-t-xs); letter-spacing: var(--v-track-wide); text-transform: uppercase; color: var(--v-ink-soft); font-weight: 500; }
+  .mat__cue { max-width: min(38rem, 48vw); bottom: clamp(6rem, 18vh, 11rem); }
+  .mat__n { display: block; font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-sm); color: var(--v-ink-soft); margin-bottom: var(--v-3); }
+  .mat__cue h2 { font-size: clamp(1.8rem, 1rem + 2.2vw, 3.2rem); }
+  .mat__cue .v-lede { margin-top: var(--v-4); max-width: 44ch; font-size: var(--v-t-base); }
+  .mat__cue .v-lede b { font-weight: 600; }
+  .mat__chips { position: absolute; z-index: 3; left: var(--v-gutter); bottom: clamp(2rem, 6vh, 3.5rem); display: flex; gap: var(--v-5); font-size: var(--v-t-xs); color: var(--v-ink); }
+  .mat__chips li { display: inline-flex; align-items: center; gap: var(--v-2); opacity: calc(.36 + .64 * clamp(0, (var(--v-p, 0) - var(--lo)) * 30, 1) * clamp(0, (var(--hi) - var(--v-p, 0)) * 30, 1)); }
+  .mat__chips i { width: 1.1rem; height: 1.1rem; border-radius: 3px; box-shadow: inset 0 0 0 1px rgb(255 255 255 / .18); background: var(--c, #fff); }
+  .mat__chips li:nth-child(1) { --lo: -1; --hi: .25; }
+  .mat__chips li:nth-child(2) { --lo: .25; --hi: .42; }
+  .mat__chips li:nth-child(3) { --lo: .42; --hi: .58; }
+  .mat__chips li:nth-child(4) { --lo: .58; --hi: .75; }
+  .mat__chips li:nth-child(5) { --lo: .75; --hi: 2; }
+  @media (max-width: 860px) {
+    .mat__scrim { background: linear-gradient(to top, rgb(34 37 42 / .97) 0%, rgb(34 37 42 / .93) 44%, rgb(34 37 42 / .58) 62%, transparent 80%); }
+    .mat .v-fill img { object-position: 74% 50%; }
+    .mat__cue { max-width: none; bottom: clamp(4.6rem, 12vh, 7rem); }
+    .mat__cue .v-lede { font-size: var(--v-t-base); }
+    .mat__chips { gap: var(--v-3); flex-wrap: wrap; }
+    .mat__chips li span { display: none; }
+  }
+
+  /* ---- 6 · услуги и цены ------------------------------------------------------ */
+  .ceny__head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: var(--v-5) var(--v-8); margin-bottom: var(--v-7); }
+  .ceny__head h2 { max-width: 18ch; }
+  .ceny__head p { color: var(--v-ink-soft); max-width: 40ch; }
+  .ceny__grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 1fr); gap: var(--v-8) var(--v-7); align-items: start; }
+  .svc { display: grid; gap: var(--v-4); align-content: start; }
+  .svc__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--v-2) var(--v-4); padding-top: var(--v-4); border-top: 1px solid var(--v-hair-strong); }
+  .svc h3 { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xl); line-height: 1.1; letter-spacing: var(--v-track-tight); }
+  .price { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-lg); white-space: nowrap; }
+  .svc > p { color: var(--v-ink-soft); text-wrap: pretty; }
+  .svc figure { margin: 0; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e1); background: var(--v-surface); }
+  .svc figure img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+  .inc { display: grid; }
+  .inc li { padding: var(--v-3) 0; border-top: 1px solid var(--v-hair); display: grid; grid-template-columns: 1.1rem minmax(0, 1fr); gap: var(--v-3); align-items: baseline; font-size: var(--v-t-sm); }
+  .inc li::before { content: ""; width: .55rem; height: .55rem; border-radius: 50%; background: var(--v-accent); align-self: center; }
+  .inc li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .inc__title { font-size: var(--v-t-xs); letter-spacing: var(--v-track-wide); text-transform: uppercase; color: var(--v-ink-soft); font-weight: 500; margin-top: var(--v-2); }
+  .ceny__note { margin-top: var(--v-8); padding-top: var(--v-5); border-top: 1px solid var(--v-hair-strong); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--v-4) var(--v-6); }
+  .ceny__note p { font-size: var(--v-t-lg); line-height: 1.35; max-width: 40ch; text-wrap: balance; }
+  .ceny__note p b { font-family: var(--v-font-display); font-weight: 600; }
+  @media (max-width: 860px) {
+    .ceny__grid { grid-template-columns: 1fr; gap: var(--v-7); }
+    .svc figure img { aspect-ratio: 4 / 3; }
+    .ceny__note p { font-size: var(--v-t-base); }
+  }
+
+  /* ---- 7 · гарантия письменно, папка после монтажа ---------------------------- */
+  .gar { background: var(--v-surface); border-top: 1px solid var(--v-hair); }
+  .gar__grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: var(--v-7) var(--v-9); align-items: start; }
+  .gar__copy .v-body { margin-top: var(--v-5); color: var(--v-ink-soft); }
+  .facts { margin-top: var(--v-6); }
+  .facts li { padding: var(--v-4) 0; border-top: 1px solid var(--v-hair); display: grid; gap: var(--v-1); }
+  .facts li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .facts b { font-weight: 600; }
+  .facts span { color: var(--v-ink-soft); font-size: var(--v-t-sm); text-wrap: pretty; max-width: 56ch; }
+  .folder { position: sticky; top: 6rem; padding: var(--v-5) var(--v-6) var(--v-6); background: var(--v-canvas); border-radius: var(--v-radius); box-shadow: var(--v-edge), inset 0 0 0 1px var(--v-hair); }
+  .folder__title { font-size: var(--v-t-xs); letter-spacing: var(--v-track-wide); text-transform: uppercase; color: var(--v-ink-soft); font-weight: 500; }
+  .folder h3 { margin-top: var(--v-2); font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-lg); line-height: 1.2; }
+  .folder ol { margin: var(--v-4) 0 0; padding: 0; list-style: none; counter-reset: doc; }
+  .folder li { counter-increment: doc; display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: var(--v-3); padding: var(--v-3) 0; border-top: 1px solid var(--v-hair); font-size: var(--v-t-sm); }
+  .folder li::before { content: counter(doc, decimal-leading-zero); font-family: var(--v-font-display); font-weight: 600; color: var(--v-ink-soft); font-variant-numeric: tabular-nums; }
+  .folder li b { font-weight: 600; display: block; }
+  .folder li span { grid-column: 2; color: var(--v-ink-soft); }
+  @media (max-width: 860px) {
+    .gar__grid { grid-template-columns: 1fr; gap: var(--v-6); }
+    .folder { position: static; }
+  }
+
+  /* ---- 8 · финал: анализ воды, контакты, малый стакан с полной шкалой ---------- */
+  /* фон - серый с переливами: светлее к верхнему правому краю, глубже книзу */
+  .fin [data-v-stage] {
+    background:
+      radial-gradient(52rem 34rem at 88% 6%, rgb(206 220 232 / .14), transparent 62%),
+      radial-gradient(46rem 30rem at 4% 98%, rgb(255 255 255 / .08), transparent 60%),
+      radial-gradient(70rem 50rem at 50% 45%, rgb(255 255 255 / .04), transparent 70%),
+      linear-gradient(158deg, #3a3f46 0%, #2c3036 48%, #202329 100%);
+  }
+  .fin__inner { height: 100%; width: min(100% - 2 * var(--v-gutter), 76rem); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: var(--v-8); align-items: end;
+    padding: 6rem 0 clamp(5.5rem, 15vh, 8.5rem); }
+  .fin__label { font-size: var(--v-t-sm); font-weight: 500; color: var(--v-ink-soft); margin-bottom: var(--v-4); }
+  .fin__copy h2 { font-size: clamp(2.2rem, 1.2rem + 3vw, 4.2rem); line-height: 1; }
+  .fin__copy .v-lede { margin-top: var(--v-5); max-width: 42ch; }
+  .fin__copy .v-btn { margin-top: var(--v-6); }
+  .fin__side { display: grid; gap: var(--v-2); font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .dir { margin: 0 0 var(--v-4); width: min(100%, 15rem); }
+  .dir__img { display: block; width: 100%; height: auto; border-radius: var(--v-radius); box-shadow: var(--v-e2); }
+  .dir__cap { margin-top: var(--v-3); font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-sm); line-height: 1.35; color: var(--v-ink); text-wrap: balance; }
+  .mini { --q: 1; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--v-4); align-items: end; width: min(100%, 20rem); margin-bottom: var(--v-5); }
+  .mini__cup { position: relative; aspect-ratio: 5 / 7; max-height: 11rem; margin-inline: 12%; border: 2px solid rgb(242 240 236 / .6); border-bottom-width: 3px; border-radius: 10px 10px 14px 14px; overflow: hidden;
+    background: linear-gradient(to bottom, rgb(242 240 236 / .12), rgb(242 240 236 / .03)); box-shadow: 0 18px 40px -18px rgb(0 0 0 / .55); }
+  .mini__water { position: absolute; left: 4px; right: 4px; top: 12%; bottom: 6%; border-radius: 3px 3px 10px 10px; background: linear-gradient(to bottom, #edf6f9 0%, #cfe4ec 58%, #bad6e3 100%); }
+  .mini__water::before { content: ""; position: absolute; left: 8%; right: 8%; top: 4%; height: 3px; border-radius: 999px; background: rgb(255 255 255 / .85); }
+  .mini__cup::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(112deg, rgb(255 255 255 / .2) 0%, rgb(255 255 255 / 0) 32%); }
+  .mini__counter { height: 7px; margin: -1px 6% 0; background: #d9cfc1; border-radius: 0 0 3px 3px; box-shadow: 0 10px 20px -8px rgb(0 0 0 / .5), inset 0 0 0 1px rgb(0 0 0 / .18); }
+  .mini .meter { position: static; width: 1.2rem; }
+  .fin__tel { justify-self: start; display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xl); color: var(--v-ink); }
+  .fin__msg { display: flex; flex-wrap: wrap; gap: var(--v-4); }
+  .fin__msg a { display: inline-flex; align-items: center; min-height: 44px; color: var(--v-ink); font-weight: 500; }
+  .fin__side b { color: var(--v-ink); font-weight: 500; }
+  .foot { position: absolute; z-index: 3; left: 0; right: 0; bottom: 0; padding: var(--v-4) var(--v-gutter); display: flex; justify-content: space-between; gap: var(--v-2) var(--v-4); flex-wrap: wrap;
+    border-top: 1px solid var(--v-hair); font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  @media (max-width: 860px) {
+    .fin__inner { grid-template-columns: 1fr; gap: var(--v-5); align-content: end; padding: 5rem 0 5.5rem; }
+    .fin__copy h2 { font-size: clamp(1.7rem, 1.2rem + 2.6vw, 2.2rem); line-height: 1.04; }
+    .fin__copy .v-lede { font-size: var(--v-t-base); margin-top: var(--v-3); }
+    .fin__copy .v-btn { margin-top: var(--v-4); }
+    .mini { display: none; }
+    .dir { display: flex; align-items: center; gap: var(--v-3); width: auto; margin-bottom: var(--v-3); }
+    .dir__img { flex: none; width: 8.5rem; }
+    .dir__cap { margin-top: 0; }
+    .fin__tel { font-size: var(--v-t-lg); min-height: 40px; }
+    .fin__side { gap: var(--v-1); }
+    .fin__msg a { min-height: 40px; }
+    .foot { padding: var(--v-3) var(--v-gutter); }
+    .foot__more { display: none; }
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .bar__mark:hover, .fin__msg a:hover { color: var(--v-accent); }
+  }
+</style>
+</head>
+<body>
+<div class="v-page">
+
+  <header class="bar" id="bar">
+    <a class="bar__mark" href="#voda"><i class="glyph" aria-hidden="true"></i><span>Купавнафильтр</span></a>
+    <span class="bar__tag">Фильтры для воды · монтаж · обслуживание</span>
+    <a class="v-btn" href="tel:+79021234545">Заказать анализ воды</a>
+  </header>
+
+  <main>
+
+    <!-- 1 · УЗНАВАНИЕ: кухня со стаканом воды на весь экран. Фото – дальний план (параллакс + наезд
+         от --v-p), оффер и кнопка на пустой стене слева, заголовок собирается построчно -->
+    <section class="hero" id="voda" data-v-act="flow" aria-label="Фильтры для воды">
+      <div class="v-layer hero__back" data-v-parallax="0.5">
+        <picture>
+          <source media="(max-width: 860px)" srcset="assets/hero-m.webp">
+          <img src="assets/hero.webp" srcset="assets/hero-1200.webp 1200w, assets/hero.webp 1920w" sizes="100vw" alt="" width="1920" height="1080" fetchpriority="high">
+        </picture>
+      </div>
+      <div class="hero__scrim" aria-hidden="true"></div>
+      <div class="hero__col">
+        <div class="hero__copy" data-v-cue="0 0.84 0 0.12" data-v-in data-v-stagger="90">
+          <p class="hero__label">Фильтры для воды · монтаж · обслуживание</p>
+          <h1 class="v-display v-display--xl" data-v-kinetic="lines">Фильтры для воды в Купавне – монтаж за один день</h1>
+          <p class="v-lede">Анализ воды, подбор системы под его результат, цена фиксируется после диагностики. Оборудование названо, гарантия – письменно.</p>
+          <div class="hero__cta">
+            <a class="v-btn" href="tel:+79021234545">Заказать анализ воды</a>
+            <p class="hero__hint">Приедем за пробой воды, подберём систему под анализ.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · ЧТО МЕНЯЕТСЯ: стена с тремя стаканами. Слева три строки «было → стало», справа стаканы,
+         в каждом мутная вода сменяется чистой снизу вверх – ступень за ступенью (скрипт внизу) -->
+    <section class="wa" id="stupeni" data-v-act="pin" data-v-span="2.1" aria-label="Что меняется после очистки воды">
+      <div data-v-stage>
+        <div class="v-fill wa__wall">
+          <img src="assets/wall.webp" srcset="assets/wall-1200.webp 1200w, assets/wall.webp 1920w" sizes="100vw" alt="" width="1920" height="1080" loading="lazy" decoding="async">
+        </div>
+        <div class="wa__light wa__light--cool" aria-hidden="true"></div>
+        <div class="wa__light wa__light--warm" aria-hidden="true"></div>
+        <div class="wa__scrim" aria-hidden="true"></div>
+        <div class="wa__col">
+          <div class="wa__copy" data-v-cue="0 0.92 0 0.08">
+            <p class="wa__label">Что меняется</p>
+            <h2 class="v-display v-display--lg">Жёсткая, с железом и запахом – пока вода без очистки</h2>
+            <ul class="swap" id="swap">
+              <li><span class="swap__old">Налёт на чайнике и сантехнике</span><span class="swap__new">Сантехника остаётся чистой</span></li>
+              <li><span class="swap__old">Запах и привкус из крана</span><span class="swap__new">Вода без запаха</span></li>
+              <li><span class="swap__old">Таскаете бутилированную</span><span class="swap__new">Пьём из-под крана</span></li>
+            </ul>
+            <p class="wa__note">Собираем систему под анализ вашей воды – <b>монтаж за один день</b>. Цена – та, что назвали после диагностики.</p>
+          </div>
+        </div>
+        <figure class="cups" id="cups" aria-label="Три стакана: мутная вода сменяется чистой, ступень за ступенью">
+          <div class="cups__row">
+            <div class="cup" style="--i:0">
+              <div class="glass glass--old"></div>
+              <div class="glass glass--new"></div>
+            </div>
+            <div class="cup" style="--i:1">
+              <div class="glass glass--old"></div>
+              <div class="glass glass--new"></div>
+            </div>
+            <div class="cup" style="--i:2">
+              <div class="glass glass--old"></div>
+              <div class="glass glass--new"></div>
+            </div>
+          </div>
+          <div class="cups__counter" aria-hidden="true"></div>
+          <figcaption class="cups__foot" id="cupsFoot">
+            <p class="cups__state" aria-live="polite"><b id="cupsState">Вода без очистки</b><span id="cupsNote">Жёсткая, налёт, запах – уходит в быт и в чайник</span></p>
+            <div class="meter" aria-hidden="true"><span class="meter__top">мягкая</span><i class="meter__track"><b></b></i><span class="meter__bottom">жёсткая</span></div>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3 · ЦЕНА БЕЗДЕЙСТВИЯ: три фразы по телефону и что за ними; поворот – «поэтому у нас так» -->
+    <section class="v-section v-section--tight vdvoe" id="vdvoe" data-v-act="flow" aria-label="Что обычно говорят по телефону">
+      <div class="v-wrap vdvoe__grid" data-v-in data-v-stagger="80">
+        <div class="vdvoe__head">
+          <h2 class="v-display v-display--lg">«Подбор по телефону», а потом – не та система</h2>
+          <p class="v-body">Так звучит объявление первой попавшейся фирмы. Сравнивать два-три предложения по таким словам не получится: за ними ничего не стоит.</p>
+          <p class="vdvoe__turn"><b>Поэтому у нас так:</b> сначала анализ воды в лаборатории, потом система под его результат. Цена фиксируется после диагностики и не меняется; монтаж – один день; гарантия – письменно, талоном.</p>
+        </div>
+        <ul class="phrases">
+          <li><b>«Универсальный фильтр подойдёт всем»</b><span>Универсальных вод не бывает: у одной жёсткость, у другой – железо и хлорка. «Средний комплект» на вашей воде работает вполсилы.</span></li>
+          <li><b>«Монтаж за час, всё просто»</b><span>Переделка трубы под кран, доплата за «нестандарт», съезд за деталью. Итог известен уже после установки.</span></li>
+          <li><b>«Гарантия десять лет»</b><span>Гарантия на корпус, а не на воду. По качеству воды из крана – ни строчки на бумаге.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4 · ДОКАЗАТЕЛЬСТВО: лента от анализа до приёмки. На десктопе едет по скроллу, на тач листается пальцем -->
+    <section class="kak" id="kak" data-v-act="pan" data-v-span="2.8" aria-label="Как проходит: от анализа до приёмки">
+      <div data-v-stage>
+        <div class="rail" data-v-pan="0.05">
+          <article class="card card--title">
+            <span class="v-label">Как проходит</span>
+            <h2 class="v-display">От анализа до приёмки – пять шагов</h2>
+            <p>Цена фиксируется на втором шаге и дальше не меняется. Монтаж – один день, приёмка – по акту.</p>
+          </article>
+          <article class="card card--photo">
+            <span class="card__n">1 · Анализ</span>
+            <h3>Забираем пробу воды и сдаём в лабораторию</h3>
+            <p>Замеряем жёсткость, железо, марганец, запах. По результату понятно, какие ступени нужны именно вашей воде. <b>Анализ – основа подбора</b>, а не «примерно по району».</p>
+            <figure><img src="assets/analiz.webp" alt="Стакан воды и лабораторная пробирка с белой крышкой на столе у окна" width="1400" height="788" loading="lazy" decoding="async"></figure>
+          </article>
+          <article class="card card--photo">
+            <span class="card__n">2 · Смета</span>
+            <h3>Подбираем систему под анализ и фиксируем цену</h3>
+            <p>В смете: оборудование по названиям, работы, дата монтажа. Цена после диагностики <b>не меняется</b>. Предоплата – только на очистку для дома: <b>10 % при подписании</b>, остальное после приёмки. Квартирные системы – без предоплаты.</p>
+            <figure><img src="assets/podbor.webp" alt="Договор с ручкой на столе, рядом в ряд стоят три картриджа и стакан воды" width="1400" height="788" loading="lazy" decoding="async"></figure>
+          </article>
+          <article class="card card--photo">
+            <span class="card__n">3 · Комплектация</span>
+            <h3>Комплектуем систему до 10 рабочих дней</h3>
+            <p>Дата монтажа согласована при подписании. Накануне подтверждаем время сообщением.</p>
+            <figure><img src="assets/komplekt.webp" alt="Светлый склад водоочистки: системы и картриджи на стеллаже у окна" width="1400" height="788" loading="lazy" decoding="async"></figure>
+          </article>
+          <article class="card card--photo card--wide">
+            <span class="card__n">4 · Монтаж за день</span>
+            <h3>Система встаёт за один день</h3>
+            <p>Установка под мойку или на вводе, кран на столешницу, подключение и проверка на протечки. Всё укрыто, мусор увозим с собой.</p>
+            <figure><img src="assets/montazh.webp" alt="Новая система очистки в открытом шкафу под мойкой: корпуса картриджей и трубки" width="1400" height="788" loading="lazy" decoding="async"></figure>
+          </article>
+          <article class="card card--photo card--last">
+            <span class="card__n">5 · Приёмка</span>
+            <h3>Проверяем воду вместе и подписываем акт</h3>
+            <p>Разливаем воду из крана на глазах у вас. С актом отдаём гарантийный талон, паспорта на оборудование и график замены картриджей.</p>
+            <figure><img src="assets/priemka.webp" alt="Стакан чистой воды на столешнице, за ним папка с документами и ручка" width="1400" height="788" loading="lazy" decoding="async"></figure>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · ДОКАЗАТЕЛЬСТВО: из чего собираем. Сцена держится, пять реплик, чипы внизу -->
+    <section class="mat" id="iz-chego" data-v-act="pin" data-v-span="2.2" aria-label="Из чего собираем">
+      <div data-v-stage>
+        <div class="v-fill">
+          <img src="assets/sistema.webp" srcset="assets/sistema-1200.webp 1200w, assets/sistema.webp 1920w" sizes="100vw" alt="Система обратного осмоса под мойкой: ряд корпусов картриджей и мембранный корпус" width="1920" height="1080" loading="lazy" decoding="async">
+        </div>
+        <div class="v-scrim mat__scrim" aria-hidden="true"></div>
+        <p class="mat__title">Из чего собираем</p>
+        <div class="v-copy v-copy--lead mat__cue" data-v-cue="0 0.25 0 0.05">
+          <span class="mat__n">Система</span>
+          <h2 class="v-display v-display--lg">Система с названием, а не «премиум-комплект»</h2>
+          <p class="v-lede">В смете записано: система <b>обратного осмоса пятой ступени</b>, тип очистки и число ступеней. Паспорт оборудования отдаём при приёмке.</p>
+        </div>
+        <div class="v-copy v-copy--lead mat__cue" data-v-cue="0.25 0.42 0.05 0.05">
+          <span class="mat__n">Ступени</span>
+          <h2 class="v-display v-display--lg">Ступени под анализ вашей воды</h2>
+          <p class="v-lede"><b>Механика 5 мкм, умягчение, сорбция, мембрана, постуголь</b> – набор записан в договоре: что ставим и зачем. Одной воде нужно умягчение, другой – железо и сорбция.</p>
+        </div>
+        <div class="v-copy v-copy--lead mat__cue" data-v-cue="0.42 0.58 0.05 0.05">
+          <span class="mat__n">Кран</span>
+          <h2 class="v-display v-display--lg">Отдельный кран для питьевой воды</h2>
+          <p class="v-lede"><b>Кран на мойке в комплекте</b> – кран, минерализатор или кулер: как договоримся, строкой в смете, а не «как получится».</p>
+        </div>
+        <div class="v-copy v-copy--lead mat__cue" data-v-cue="0.58 0.75 0.05 0.05">
+          <span class="mat__n">Сервис</span>
+          <h2 class="v-display v-display--lg">Обслуживание по графику, а не «когда вспомните»</h2>
+          <p class="v-lede"><b>Регенерация и замена картриджей</b> – регламент лежит в папке после монтажа.</p>
+        </div>
+        <div class="v-copy v-copy--lead mat__cue" data-v-cue="0.75 1 0.05 0">
+          <span class="mat__n">Дом и квартира</span>
+          <h2 class="v-display v-display--lg">Квартира или дом – считаем по-разному</h2>
+          <p class="v-lede">Компактная система под мойку для квартиры, система на вводе – для дома и скважины. Что подойдёт именно вам, покажет анализ.</p>
+        </div>
+        <ol class="mat__chips" aria-hidden="true">
+          <li><i style="--c:#ffffff"></i><span>Система</span></li>
+          <li><i style="--c:#cfe0e8"></i><span>Ступени</span></li>
+          <li><i style="--c:#b9b2a6"></i><span>Кран</span></li>
+          <li><i style="--c:#f4f2ee"></i><span>Сервис</span></li>
+          <li><i style="--c:#d9cfc1"></i><span>Дом</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 6 · ВЫБОР: три услуги, цены «уточнить» до прайса, «что входит» списком -->
+    <section class="v-section ceny" id="ceny" data-v-act="flow" aria-label="Услуги и цены">
+      <div class="v-wrap">
+        <div class="ceny__head" data-v-in data-v-stagger="60">
+          <h2 class="v-display v-display--lg">Цена после анализа – в договоре, и она не меняется</h2>
+          <p>Ниже – направления, от чего считать. Точную сумму назовём после анализа воды, и она не изменится.</p>
+        </div>
+        <div class="ceny__grid">
+          <article class="svc svc--kvartira" data-v-in data-v-stagger="60">
+            <figure data-v-reveal="up" data-v-reveal-at="0.12 0.48"><img src="assets/kran.webp" alt="Тонкий кран для питьевой воды на столешнице, в стакан набирается чистая вода" width="1000" height="1333" loading="lazy" decoding="async"></figure>
+            <div class="svc__head"><h3>Очистка для квартиры</h3><span class="price v-nums">3 000–8 000 ₽</span></div>
+            <p>Система под мойку с отдельным краном для питьевой воды. Дополнительные ступени – строкой в смете.</p>
+            <p class="inc__title">Что входит</p>
+            <ul class="inc">
+              <li>Анализ воды и подбор под результат</li>
+              <li>Система под мойку, кран на столешницу</li>
+              <li>Монтаж и подключение за один день</li>
+              <li>Пусконаладка и проверка на протечки</li>
+              <li>Гарантийный талон и график обслуживания</li>
+            </ul>
+          </article>
+          <article class="svc svc--dom">
+            <figure data-v-reveal="left" data-v-reveal-at="0.12 0.48"><img src="assets/dom.webp" alt="Линия очистки воды в доме: синий напорный бак и фильтр с клапаном управления" width="1000" height="1333" loading="lazy" decoding="async"></figure>
+            <div data-v-in data-v-stagger="60">
+              <div class="svc__head"><h3>Очистка для дома</h3><span class="price v-nums">50 000–150 000 ₽</span></div>
+              <p>Система на вводе для скважины или колодца: жёсткость, железо, запах. Состав – по анализу вашей воды.</p>
+            </div>
+          </article>
+          <article class="svc svc--servis">
+            <figure data-v-reveal="up" data-v-reveal-at="0.12 0.48"><img src="assets/obsluzh.webp" alt="Три новых картриджа в упаковке и сервисная книжка на столе рядом со стаканом воды" width="1000" height="1333" loading="lazy" decoding="async"></figure>
+            <div data-v-in data-v-stagger="60">
+              <div class="svc__head"><h3>Обслуживание систем</h3><span class="price v-nums">5 000–15 000 ₽</span></div>
+              <p>Замена картриджей, регенерация, сезонный сервис – с выездом специалиста. Приезжаем по графику из папки после монтажа.</p>
+            </div>
+          </article>
+        </div>
+        <div class="ceny__note" data-v-in data-v-stagger="60">
+          <p>Напишите, откуда у вас вода – водопровод, скважина или колодец, и <b>закажем анализ</b>: сумму назовём после него, и она не изменится.</p>
+          <a class="v-btn v-btn--ghost" href="tel:+79021234545">Заказать анализ воды</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · ДОВЕРИЕ: гарантия письменно, папка после монтажа (отзывы – только настоящие с Яндекс.Карт,
+         меньше трёх – блок убран) -->
+    <section class="v-section gar" id="garantiya" data-v-act="flow" aria-label="Гарантия письменно">
+      <div class="v-wrap">
+        <div class="gar__grid">
+          <div class="gar__copy" data-v-in data-v-stagger="70">
+            <h2 class="v-display v-display--lg">Гарантия письменно, а не «позвоните, если что»</h2>
+            <p class="v-body">Гарантийный талон выдаём при приёмке вместе с актом. Что в нём записано:</p>
+            <ul class="facts">
+              <li><b>На монтаж – 3 года</b><span>Стыки, подключение, крепёж. Капает или течёт по нашей части – наш выезд, а не ваш спор.</span></li>
+              <li><b>На оборудование – по паспорту производителя</b><span>Паспорта на систему отдаём вместе с талоном.</span></li>
+              <li><b>На работу системы – по договору</b><span>Что система должна давать по вашему анализу, записано в договоре. Не вышла на режим – приезжаем и настраиваем.</span></li>
+              <li><b>Сервис после первого сезона</b><span>Картриджи меняются по регламенту, настройку проверяем по заявке в рабочие часы, условия – в талоне.</span></li>
+            </ul>
+          </div>
+          <aside class="folder" data-v-in data-v-stagger="70" aria-label="Документы после монтажа">
+            <p class="folder__title">Папка после монтажа</p>
+            <h3>Что остаётся у вас на руках</h3>
+            <ol>
+              <li><b>Договор</b><span>цена после диагностики, оборудование по названиям</span></li>
+              <li><b>Акт приёмки</b><span>подписываем вместе после проверки воды</span></li>
+              <li><b>Гарантийный талон</b><span>сроки и что покрывает</span></li>
+              <li><b>Паспорта и график</b><span>на оборудование и регламент замены картриджей</span></li>
+            </ol>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 · ДЕЙСТВИЕ: анализ воды, контакты, малый стакан с чистой водой и полной шкалой -->
+    <section class="fin" id="vyzov" data-v-act="pin" data-v-span="1.3" aria-label="Заказать анализ воды">
+      <div data-v-stage>
+        <div class="fin__inner">
+          <div class="fin__copy" data-v-cue="0.04">
+            <p class="fin__label">Заказать анализ воды</p>
+            <h2 class="v-display">Анализ покажет, какая система нужна вашей воде</h2>
+            <p class="v-lede">Напишите, откуда у вас вода – городской водопровод, скважина или колодец, и удобный день. Заберём пробу, подберём систему под результат и назовём сумму до монтажа.</p>
+            <a class="v-btn" href="tel:+79021234545">Заказать анализ воды</a>
+          </div>
+          <div class="fin__side" data-v-cue="0.1">
+            <figure class="dir">
+              <img class="dir__img" src="assets/director.webp" width="800" height="929" alt="Директор компании Купавнафильтр" loading="lazy">
+              <figcaption class="dir__cap">Директор компании гарантирует результат</figcaption>
+            </figure>
+            <div class="mini" aria-hidden="true">
+              <div class="mini__col">
+                <div class="mini__cup"><div class="mini__water"></div></div>
+                <div class="mini__counter"></div>
+              </div>
+              <div class="meter"><span class="meter__top">мягкая</span><i class="meter__track"><b></b></i><span class="meter__bottom">жёсткая</span></div>
+            </div>
+            <a class="fin__tel" href="tel:+79021234545">+7 902 123-45-45</a>
+            <span><b>ул. Центральная, 8</b>, Купавна</span>
+            <span>Ежедневно 09:00–19:00</span>
+            <span>Анализ воды – в рабочие часы, по записи</span>
+          </div>
+        </div>
+        <footer class="foot">
+          <span>Купавнафильтр · Купавна</span>
+          <span>ИП Купавнафильтр</span>
+          <span class="foot__more">Фильтры для воды: подбор, монтаж, обслуживание</span>
+        </footer>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="vibe.js"></script>
+<script>
+  // На телефоне пины короче. data-v-span из CSS не поменять, поэтому правим атрибут до монтирования.
+  if (window.matchMedia('(max-width: 860px)').matches) {
+    document.getElementById('stupeni').setAttribute('data-v-span', '2.0');
+    document.getElementById('iz-chego').setAttribute('data-v-span', '2.1');
+    document.getElementById('vyzov').setAttribute('data-v-span', '1.3');
+  }
+  Vibe.mount(document.querySelector('.v-page'));
+
+  // Фирменный ход (акт 2): ступень за ступенью. В каждом стакане два слоя воды: мутный снизу
+  // и чистый сверху. От --v-p акта каждый стакан получает свою долю хода
+  // (стакан 1: 0,12–0,32; 2: 0,36–0,56; 3: 0,60–0,80), чистая вода поднимается снизу вверх
+  // clip-path, стакан светлеет, строка «было → стало» слева получает is-done.
+  // Шкала жёсткости и тёплый свет на стене идут от --q (0,1 → 0,85). Строка под стаканами меняется на середине каждой ступени.
+  (function () {
+    var act = document.getElementById('stupeni');
+    var rows = Array.prototype.slice.call(document.querySelectorAll('#swap > li'));
+    var cups = Array.prototype.slice.call(act.querySelectorAll('.cup'));
+    var news = cups.map(function (c) { return c.querySelector('.glass--new'); });
+    var foot = document.getElementById('cupsFoot'), st = document.getElementById('cupsState'), nt = document.getElementById('cupsNote');
+    var texts = [
+      ['Вода без очистки', 'Жёсткая, налёт, запах – уходит в быт и в чайник'],
+      ['Очистка · ступень 1 из 3', 'Механика и умягчение: уходят налёт и рыжина'],
+      ['Очистка · ступень 2 из 3', 'Сорбция: уходят запах и привкус хлорки'],
+      ['Очистка · ступень 3 из 3', 'Мембрана: доочистка для питья прямо из крана'],
+      ['Вода после системы', 'Мягкая, без запаха, пьётся из-под крана']
+    ];
+    var starts = [0.12, 0.36, 0.60], len = 0.2, live = false, lastK = -1, lastP = -1, swapT = null;
+    function ss(t) { t = t < 0 ? 0 : t > 1 ? 1 : t; return t * t * (3 - 2 * t); }
+    function setText(k) {
+      if (k === lastK) return;
+      lastK = k;
+      foot.classList.add('is-swap');
+      clearTimeout(swapT);
+      swapT = setTimeout(function () { st.textContent = texts[k][0]; nt.textContent = texts[k][1]; foot.classList.remove('is-swap'); }, 110);
+    }
+    function paint(p) {
+      var k = 0;
+      for (var i = 0; i < cups.length; i++) {
+        var t = ss((p - starts[i]) / len);
+        news[i].style.clipPath = 'inset(' + ((1 - t) * 100).toFixed(2) + '% 0 0 0)';
+        cups[i].classList.toggle('is-new', t > 0.5);
+        if (rows[i]) rows[i].classList.toggle('is-done', t > 0.5);
+        if (p >= starts[i]) k = i + 1;
+      }
+      if (p >= starts[2] + len) k = 4;
+      act.style.setProperty('--q', ss((p - 0.1) / 0.75).toFixed(4));
+      setText(k);
+    }
+    function tick() {
+      var p = parseFloat(getComputedStyle(act).getPropertyValue('--v-p')) || 0;
+      if (p !== lastP) { lastP = p; paint(p); }
+      if (live) requestAnimationFrame(tick);
+    }
+    new IntersectionObserver(function (es) { live = es[0].isIntersecting; if (live) tick(); }).observe(act);
+    tick();
+  })();
+</script>
+</body>
+</html>
